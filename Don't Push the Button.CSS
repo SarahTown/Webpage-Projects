@@ -1,0 +1,66 @@
+:root {
+  --button-color1: #DE0530;
+  --button-color2: #BA0328;
+  --button-base: black;
+}
+
+html {
+  background-color: white;
+}
+
+h1 {
+  font-family: Verona;
+  font-size: 500;
+  text-align: center;
+  color: black;
+}
+
+
+.button-top {
+  width: 300px;
+  height: 100px;
+  position:absolute;
+  top:49%;
+  left:50%;
+  margin-top:-8px;
+  margin-left:-140px;
+  background-color: var(--button-color1);
+  border-radius: 45%;
+  z-index: 2;
+}
+
+.button-middle {
+  width: 305px;
+  height: 100px;
+  position:relative;
+  top:330px;
+  left:335px;
+  margin-top:-5px;
+  margin-left:-140px;
+  background-color: var(--button-color2);
+  border-radius: 50% 50% 40% 40%;
+  z-index: 1;
+}
+
+.button-bottom {
+  width: 305px;
+  height: 100px;
+  position:relative;
+  top:305px;
+  left:335px;
+  margin-top:-50px;
+  margin-left:-140px;
+  background-color: var(--button-base);
+  border-radius: 40%;
+  z-index: -1;
+}
+
+.button-top:hover {
+  position: absolute;
+  top:405px;
+  left:345px;
+  margin-top:-5px;
+  margin-left:-140px;
+}
+
+
